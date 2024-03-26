@@ -1,0 +1,285 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4453beda-6f21-42ba-ba38-a5be37ed984c")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 73.66 50.8)
+		(size 54.61 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006028afd2")
+		(property "Sheetname" "STM32 MCU"
+			(at 73.66 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32_MCU.kicad_sch"
+			(at 73.66 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UART_SENSE1_TX" input
+			(at 73.66 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf87638a-24fa-452b-bd60-129009712e17")
+		)
+		(pin "I2C_SENSE1_SDA" input
+			(at 73.66 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c332802a-cc39-444c-9fbd-3e934022864d")
+		)
+		(pin "I2C_SENSE1_SCL" input
+			(at 73.66 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4e97058b-5a7b-48df-b5d7-dcad34676e4b")
+		)
+		(pin "I2C_MUX1_RESET" input
+			(at 73.66 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1f6bfca8-7ddf-418e-b916-0db9ce204f72")
+		)
+		(pin "USW1_EN" input
+			(at 73.66 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f5f90e7-710c-4f55-a157-19c12c3909b3")
+		)
+		(pin "USW1_S0" input
+			(at 73.66 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "44850ead-d78f-479e-8bef-7d567319410b")
+		)
+		(pin "USW1_S1" input
+			(at 73.66 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "02e8a0f6-f517-4103-be83-2097259d3f0a")
+		)
+		(pin "RF_SHDN" input
+			(at 73.66 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7a027695-e385-4b84-b46b-d6a1bc805ea5")
+		)
+		(instances
+			(project "SunLeaf-Sense-S1G"
+				(path "/4453beda-6f21-42ba-ba38-a5be37ed984c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 110.49)
+		(size 54.61 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006028b309")
+		(property "Sheetname" "Power Supply and Switching"
+			(at 73.66 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 73.66 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BAT_VOLT_SENSE" input
+			(at 73.66 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d1e2ac8-6293-4c0d-92f8-29f998e50064")
+		)
+		(pin "USB_VBUS" input
+			(at 73.66 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f60554b1-810d-4e36-bdf7-5eb09aa13f98")
+		)
+		(pin "BAT_SDA" input
+			(at 73.66 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b745319a-827b-4c12-82a2-d63b9513dce9")
+		)
+		(pin "BAT_SCL" input
+			(at 73.66 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9acf87d3-3a34-4603-bb11-4269892c17e8")
+		)
+		(instances
+			(project "SunLeaf-Sense-S1G"
+				(path "/4453beda-6f21-42ba-ba38-a5be37ed984c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 110.49)
+		(size 54.61 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006028b457")
+		(property "Sheetname" "Grow Environment Sensor Suite"
+			(at 143.51 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor_Suite.kicad_sch"
+			(at 143.51 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SunLeaf-Sense-S1G"
+				(path "/4453beda-6f21-42ba-ba38-a5be37ed984c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 50.8)
+		(size 57.15 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000060392ea2")
+		(property "Sheetname" "ST_RF_Radio"
+			(at 140.97 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ST_RF_Radio.kicad_sch"
+			(at 140.97 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SunLeaf-Sense-S1G"
+				(path "/4453beda-6f21-42ba-ba38-a5be37ed984c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
